@@ -1,0 +1,11 @@
+{
+  "calculate": "Calculate",
+  "langUZ": "O'zbekcha",
+  "langUZC": "Ўзбекча",
+  "langRU": "Русский",
+  "langEN": "English",
+  "name": "Currency",
+  "notFound": "No information found :(",
+  "hasError": "An error occurred :(",
+  "refresh": "Refresh"
+}

@@ -1,0 +1,36 @@
+name: currency_exchance_tdd_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc_concurrency: ^0.2.0
+  cupertino_icons: ^1.0.2
+  currency_text_input_formatter: ^2.1.5
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  easy_localization: ^3.0.0
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  flutter_native_splash: ^1.3.3  # read pubspec_splash.yaml
+  get_it: ^7.2.0
+  money_formatter: ^0.0.3
+  provider: ^6.0.2
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/locals/
